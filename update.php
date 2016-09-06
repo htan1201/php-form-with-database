@@ -1,5 +1,6 @@
 <?php
         if (isset($_GET['id']) && ctype_digit($_GET['id'])) {
+        //checks if the user exsist
         $id = $_GET['id'];
     } else {
         //redirecting to another page
